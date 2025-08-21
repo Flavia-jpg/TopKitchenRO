@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Audiobook Hub</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; text-align: center; }
+    h1 { margin: 20px; }
+    .book { background: white; padding: 20px; margin: 20px auto; max-width: 500px;
+            border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    audio, iframe { width: 100%; margin-top: 10px; }
+    button { background: #0066ff; color: white; padding: 10px 15px; border: none;
+             border-radius: 5px; cursor: pointer; margin-top: 10px; }
+    button:hover { background: #0044aa; }
+  </style>
+</head>
+<body>
+  <h1>📚 Welcome to My Audiobook Hub</h1>
+
+  <!-- Example public domain audiobook -->
+  <div class="book">
+    <h2>Alice’s Adventures in Wonderland</h2>
+    <audio controls>
+      <source src="https://www.archive.org/download/alices_adventures_in_wonderland_0802_librivox/aliceinwonderland_01_carroll.mp3" type="audio/mpeg">
+    </audio>
+    <p>A classic tale by Lewis Carroll, narrated by volunteers.</p>
+  </div>
+
+  <!-- Example Spotify embed -->
+  <div class="book">
+    <h2>Atomic Habits (Spotify)</h2>
+    <iframe src="https://open.spotify.com/embed/audiobook/7o0DXzncYVNGdXkpcZbK0R"
+            width="100%" height="152" frameborder="0" allowtransparency="true"
+            allow="encrypted-media"></iframe>
+    <p>Learn how small changes can create big results.</p>
+    <button onclick="window.open('https://www.amazon.com/dp/0735211299','_blank')">Listen on Audible</button>
+  </div>
+</body>
+</html>
