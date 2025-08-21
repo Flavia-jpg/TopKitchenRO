@@ -1,2 +1,2 @@
-# my-audiobook-site
-Audiobook discovery site with reviews and links.
+# topkitchenRO
+„Kitchen & home essentials – recomandări de gadgeturi smart, ideale pentru gătit și organizare.”
